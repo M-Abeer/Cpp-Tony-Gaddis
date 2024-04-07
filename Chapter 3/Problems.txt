@@ -1,0 +1,227 @@
+Programming Challenges
+ 1. Miles per Gallon
+Write a program that calculates a car’s gas mileage. The program should ask the user
+to enter the number of gallons of gas the car can hold and the number of miles it can
+be driven on a full tank. It should then display the number of miles that may be driven
+per gallon of gas.
+ 2. Stadium Seating
+There are three seating categories at a stadium. For a softball game, Class A seats cost
+$15, Class B seats cost $12, and Class C seats cost $9. Write a program that asks how
+many tickets for each class of seats were sold, then displays the amount of income generated from ticket sales. 
+Format your dollar amount in fixed-point notation, with two
+decimal places of precision, and be sure the decimal point is always displayed.
+ 3. Test Average
+Write a program that asks for five test scores. The program should calculate the average test score and display it. 
+The number displayed should be formatted in fixed-point
+notation, with one decimal point of precision.
+ 4. Average Rainfall
+Write a program that calculates the average rainfall for three months. The program
+should ask the user to enter the name of each month, such as June or July, and the
+amount of rain (in inches) that fell each month. The program should display a message
+similar to the following:
+The average rainfall for June, July, and August is 6.72 inches.
+ 5. Male and Female Percentages
+Write a program that asks the user for the number of males and the number of females
+registered in a class. The program should display the percentage of males and females
+in the class.
+Hint: Suppose there are 8 males and 12 females in a class. There are 20 students in the
+class. The percentage of males can be calculated as 8 ÷ 20 = 0.4, or 40%. The percentage of females can be 
+calculated as 12 ÷ 20 = 0.6, or 60%.
+
+Programming Challenges 143
+ 6. Ingredient Adjuster
+A cookie recipe calls for the following ingredients:
+• 1.5 cups of sugar
+• 1 cup of butter
+• 2.75 cups of flour
+The recipe produces 48 cookies with this amount of the ingredients. Write a program
+that asks the user how many cookies he or she wants to make, and then displays the
+number of cups of each ingredient needed for the specified number of cookies.
+ 7. Box Office
+A movie theater only keeps a percentage of the revenue earned from ticket sales. The
+remainder goes to the movie distributor. Write a program that calculates a theater’s
+gross and net box office profit for a night. The program should ask for the name of the
+movie, and how many adult and child tickets were sold. (The price of an adult ticket is
+$10.00 and a child’s ticket is $6.00.) It should display a report similar to
+Movie Name: “Wheels of Fury”
+Adult Tickets Sold: 382
+Child Tickets Sold: 127
+Gross Box Office Profit: $ 4582.00
+Net Box Office Profit: $ 916.40
+Amount Paid to Distributor: $ 3665.60
+NOTE: Assume the theater keeps 20 percent of the gross box office profit.
+ 8. How Many Widgets?
+The Yukon Widget Company manufactures widgets that weigh 12.5 pounds each.
+Write a program that calculates how many widgets are stacked on a pallet, based on
+the total weight of the pallet. The program should ask the user how much the pallet
+weighs by itself and with the widgets stacked on it. It should then calculate and display
+the number of widgets stacked on the pallet.
+ 9. How Many Calories?
+A bag of cookies holds 30 cookies. The calorie information on the bag claims that there
+are 10 “servings” in the bag and that a serving equals 300 calories. Write a program
+that asks the user to input how many cookies he or she actually ate and then reports
+how many total calories were consumed.
+10. How Much Insurance?
+Many financial experts advise that property owners should insure their homes or buildings for at least 80 percent of the amount it would cost to replace the structure. Write a
+program that asks the user to enter the replacement cost of a building and then displays
+the minimum amount of insurance he or she should buy for the property.
+11. Automobile Costs
+Write a program that asks the user to enter the monthly costs for the following
+expenses incurred from operating his or her automobile: loan payment, insurance, gas,
+oil, tires, and maintenance. The program should then display the total monthly cost of
+these expenses, and the total annual cost of these expenses.
+12. Celsius to Fahrenheit
+Write a program that converts Celsius temperatures to Fahrenheit temperatures. 
+13. Currency
+Write a program that will convert U.S. dollar amounts to Japanese yen and to euros,
+storing the conversion factors in the constants YEN_PER_DOLLAR and EUROS_PER_
+DOLLAR. To get the most up-to-date exchange rates, search the Internet using the
+term “currency exchange rate”. If you cannot find the most recent exchange rates, use
+the following:
+1 Dollar = 98.93 Yen
+1 Dollar = 0.74 Euros
+Format your currency amounts in fixed-point notation, with two decimal places of
+precision, and be sure the decimal point is always displayed.
+14. Monthly Sales Tax
+A retail company must file a monthly sales tax report listing the sales for the month and
+the amount of sales tax collected. Write a program that asks for the month, the year,
+and the total amount collected at the cash register (that is, sales plus sales tax). Assume
+the state sales tax is 4 percent and the county sales tax is 2 percent.
+If the total amount collected is known and the total sales tax is 6 percent, the amount
+of product sales may be calculated as:
+S 
+T
+1.06
+S is the product sales and T is the total income (product sales plus sales tax).
+The program should display a report similar to
+Month: October
+ --------------------
+Total Collected: $ 26572.89
+Sales: $ 25068.76
+County Sales Tax: $ 501.38
+State Sales Tax: $ 1002.75
+Total Sales Tax: $ 1504.13
+15. Property Tax
+A county collects property taxes on the assessment value of property, which is 60 percent of the property’s actual value. If an acre of land is valued at $10,000, its assessment
+value is $6,000. The property tax is then 75¢ for each $100 of the assessment value.
+The tax for the acre assessed at $6,000 will be $45. Write a program that asks for the
+actual value of a piece of property and displays the assessment value and property tax.
+16. Senior Citizen Property Tax
+Madison County provides a $5,000 homeowner exemption for its senior citizens. For
+example, if a senior’s house is valued at $158,000 its assessed value would be $94,800,
+144 Chapter 3 Expressions and Interactivity
+Programming Challenges 145
+as explained above. However, he would only pay tax on $89,800. At last year’s tax
+rate of $2.64 for each $100 of assessed value, the property tax would be $2,370.72. In
+addition to the tax break, senior citizens are allowed to pay their property tax in four
+equal payments. The quarterly payment due on this property would be $592.68. Write
+a program that asks the user to input the actual value of a piece of property and the
+current tax rate for each $100 of assessed value. The program should then calculate
+and report how much annual property tax a senior homeowner will be charged for this
+property and what the quarterly tax bill will be.
+17. Math Tutor
+Write a program that can be used as a math tutor for a young student. The program
+should display two random numbers to be added, such as
+ 247
+129
+The program should then pause while the student works on the problem. When the
+student is ready to check the answer, he or she can press a key and the program will
+display the correct solution:
+ 247
+129
+ 376
+18. Interest Earned
+Assuming there are no deposits other than the original investment, the balance in a
+savings account after one year may be calculated as
+Amount = Principal *(1 +
+Rate
+T )T
+Principal is the balance in the savings account, Rate is the interest rate, and T is
+the number of times the interest is compounded during a year ( T is 4 if the interest is
+compounded quarterly).
+Write a program that asks for the principal, the interest rate, and the number of times
+the interest is compounded. It should display a report similar to
+Interest Rate: 4.25%
+Times Compounded: 12
+Principal: $ 1000.00
+Interest: $ 43.34
+Amount in Savings: $ 1043.34
+19. Monthly Payments
+The monthly payment on a loan may be calculated by the following formula:
+Payment = Rate *(1 + Rate)N
+((1 + Rate)N - 1) * L
+Rate is the monthly interest rate, which is the annual interest rate divided by 12. (12%
+annual interest would be 1 percent monthly interest.) N is the number of payments, and
+L is the amount of the loan. Write a program that asks for these values and displays a
+report similar to
+Loan Amount: $ 10000.00
+Monthly Interest Rate: 1%
+Number of Payments: 36
+Monthly Payment: $ 332.14
+Amount Paid Back: $ 11957.15
+Interest Paid: $ 1957.15
+20. Pizza Pi
+Joe’s Pizza Palace needs a program to calculate the number of slices a pizza of any size
+can be divided into. The program should perform the following steps:
+A) Ask the user for the diameter of the pizza in inches.
+B) Calculate the number of slices that may be taken from a pizza of that size.
+C) Display a message telling the number of slices.
+To calculate the number of slices that may be taken from the pizza, you must know
+the following facts:
+• Each slice should have an area of 14.125 inches.
+• To calculate the number of slices, simply divide the area of the pizza by 14.125.
+• The area of the pizza is calculated with this formula:
+ Area  π r
+2
+NOTE: π is the Greek letter pi. 3.14159 can be used as its value. The variable r is the
+radius of the pizza. Divide the diameter by 2 to get the radius.
+Make sure the output of the program displays the number of slices in fixed point notation, rounded to one decimal place of precision. Use a named constant for pi.
+21. How Many Pizzas?
+Modify the program you wrote in Programming Challenge 18 (Pizza Pi) so that it
+reports the number of pizzas you need to buy for a party if each person attending
+is expected to eat an average of four slices. The program should ask the user for the
+number of people who will be at the party and for the diameter of the pizzas to be
+ordered. It should then calculate and display the number of pizzas to purchase.
+22. Angle Calculator
+Write a program that asks the user for an angle, entered in radians. The program
+should then display the sine, cosine, and tangent of the angle. (Use the sin, cos, and
+tan library functions to determine these values.) The output should be displayed in
+fixed-point notation, rounded to four decimal places of precision.
+23. Stock Transaction Program
+Last month Joe purchased some stock in Acme Software, Inc. Here are the details of
+the purchase:
+• The number of shares that Joe purchased was 1,000.
+• When Joe purchased the stock, he paid $45.50 per share.
+• Joe paid his stockbroker a commission that amounted to 2% of the amount he paid
+for the stock.
+146 Chapter 3 Expressions and Interactivity
+Programming Challenges 147
+Two weeks later Joe sold the stock. Here are the details of the sale:
+• The number of shares that Joe sold was 1,000.
+• He sold the stock for $56.90 per share.
+• He paid his stockbroker another commission that amounted to 2% of the amount
+he received for the stock.
+Write a program that displays the following information:
+• The amount of money Joe paid for the stock.
+• The amount of commission Joe paid his broker when he bought the stock.
+• The amount that Joe sold the stock for.
+• The amount of commission Joe paid his broker when he sold the stock.
+• Display the amount of profit that Joe made after selling his stock and paying the two
+commissions to his broker. (If the amount of profit that your program displays is a
+negative number, then Joe lost money on the transaction.)
+24. Word Game
+Write a program that plays a word game with the user. The program should ask the
+user to enter the following:
+• His or her name
+• His or her age
+• The name of a city
+• The name of a college
+• A profession
+• A type of animal
+• A pet’s name
+After the user has entered these items, the program should display the following story,
+inserting the user’s input into the appropriate locations:
+There once was a person named NAME who lived in CITY . At the age of
+AGE, NAME went to college at COLLEGE. NAME graduated and went to work
+as a PROFESSION. Then, NAME adopted a(n) ANIMAL named PETNAME. They
+both lived happily ever after!
